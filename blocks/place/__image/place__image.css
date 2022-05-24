@@ -1,6 +1,6 @@
 .place__image {
- width: 92%;
- height: 92%;
+ width: 460px;
+ padding-top: 48px;
   }
 
 @media screen and (max-width: 1024px) {
