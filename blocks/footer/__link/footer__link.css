@@ -1,0 +1,11 @@
+.footer__link {
+    display: inline-block;
+    padding-left: 18px;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.footer__link:first-child {
+    padding-left: 0;
+}

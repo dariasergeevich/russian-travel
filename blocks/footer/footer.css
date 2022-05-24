@@ -1,0 +1,13 @@
+.footer {
+    display: grid;
+    grid-template-rows: 92,5%;
+    grid-template-columns: repeat(5, minmax(min-content, max-content)) 60.73%;
+    padding-top: 7.19%;
+    margin: auto;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.125;
+    padding-bottom: 2.03%;
+    padding-left: 3.75%;
+    
+}
