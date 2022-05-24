@@ -1,7 +1,7 @@
 .footer {
     display: grid;
     grid-template-rows: 92,5%;
-    grid-template-columns: repeat(5, minmax(min-content, max-content)) 60.73%;
+    grid-template-columns: repeat(5, minmax(min-content, max-content)) 719px;
     padding-top: 7.19%;
     margin: auto;
     color: white;
@@ -11,3 +11,21 @@
     padding-left: 3.75%;
     
 }
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        grid-template-columns: repeat(5, minmax(min-content, max-content)) 463px;
+    }
+}
+
+  @media screen and (max-width: 768px) {
+    .footer {
+        grid-template-columns: repeat(5, minmax(min-content, max-content)) 255px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .footer {
+        grid-template-columns: repeat(6, minmax(auto-fill, max-content));
+    }
+  }

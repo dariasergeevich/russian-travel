@@ -5,11 +5,19 @@
   gap: 80px;
   padding-top: 7.19%;
   margin: auto;
-  padding-left: 11.56%;
+  max-width: 984px;
   }
+
+  @media screen and (max-width: 1024px) {
+    .place {
+        max-width: 928px;
+    }
+}
+
   @media screen and (max-width: 768px) {
     .places {
       gap: 76px;
+      max-width: 720px;
     }
   }
 
@@ -18,5 +26,6 @@
       gap: 50px;
       grid-template-columns: 100%;
       padding-left: none;
+      max-width: 320px;
     }
   }
