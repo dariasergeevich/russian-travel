@@ -13,18 +13,18 @@ opacity: 0.8;
         width: 1024px;
         height: 640px;
     }
-};
+}
 
 @media screen and (max-width: 768px) {
     .cover__background {
         width: 768px;
         height: 480px;
     }
-};
+}
 
 @media screen and (max-width: 320px) {
     .cover__background {
         width: 320x;
         height: 200px;
     }
-};
+}

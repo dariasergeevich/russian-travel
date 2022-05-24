@@ -11,7 +11,7 @@
     .places {
       gap: 76px;
     }
-  };
+  }
 
   @media screen and (max-width: 320px) {
     .places {
@@ -19,4 +19,4 @@
       grid-template-columns: 100%;
       padding-left: none;
     }
-  };
+  }
