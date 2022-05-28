@@ -1,9 +1,24 @@
 .header {
     padding-top: 2.19%;
-    padding-left: 3.75%;
-    display: grid;
-    grid-template-rows: 92.5%;
-    grid-template-columns: 90% 2.19% 3.6%;
-
+    display: flex;
+    justify-content: space-between;
+    max-width: 92.5%;
+    margin: auto;
     
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header {
+      max-width: calc(100% - 96px);
+    }
+  }
+  @media (min-width: 426px) and (max-width: 768px) {
+    .header {
+      max-width: calc(100% - 48px);
+    }
+  }
+  @media (max-width: 425px) {
+    .header {
+      max-width: calc(100% - 32px);
+    }
+  }

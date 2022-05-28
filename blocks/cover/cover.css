@@ -1,7 +1,12 @@
 .cover {
-width: 92.5%;
+width: 96.1%;
 margin: auto;
 color: white;
 position: relative;
-padding-top: 92px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .cover {
+      max-width: 100%;
+    }
 }

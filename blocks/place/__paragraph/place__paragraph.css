@@ -1,8 +1,21 @@
 .place__paragraph {
   font-size: 1.125rem;
   line-height: 1.63;
-  width: 448px;
   margin: 0;
-  padding-left: 40px;
-  padding-top: 48px;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    width: 100%;
+    
+  }
+}
+@media (max-width: 425px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    width: 288px;
+  }
 }

@@ -1,5 +1,4 @@
 .footer__link {
-    display: inline-block;
     padding-left: 18px;
     margin: 0;
     text-decoration: none;
@@ -8,4 +7,15 @@
 
 .footer__link:first-child {
     padding-left: 0;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 425px) {
+    .footer__link{
+      padding-left: 0;
+      padding-bottom: 32px;
+    }
 }
