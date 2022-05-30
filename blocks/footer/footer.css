@@ -1,15 +1,16 @@
 .footer {
     display: flex;
     flex-direction: row;
-    padding-top: 7.19%;
+    padding-top: 92px;
     margin: auto;
     color: white;
     font-size: 1rem;
     line-height: 1.125;
-    padding-bottom: 2.03%;
+    padding-bottom: 24px;
     width: 92.5%;
     flex-wrap: wrap;
     justify-content: space-between;
+    max-width: 1184px;
     
 }
   
@@ -21,12 +22,16 @@
   @media (min-width: 426px) and (max-width: 768px) {
     .footer {
       max-width: calc(100% - 48px);
+      padding-top: 88px;
     }
   }
   @media (max-width: 425px) {
     .footer {
       max-width: calc(100% - 32px);
       flex-direction: column;
+      padding-top: 64px;
+      font-size: 24px;
+    line-height: 1;
     }
   }
 

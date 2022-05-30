@@ -4,18 +4,27 @@
   font-weight: 900;
   width: 460px;
   margin: 0;
-  padding-right: 40px;
-  align-self: flex-end;
+
   }
 
   @media (min-width: 426px) and (max-width: 768px) {
     .place__title {
       font-size: 42px;
       line-height: 46px;
+      width: 300px;
     }
   }
+
+  @media (max-width: 615px) {
+    .place__title {
+      padding-left: 16px;
+    }
+  }
+
   @media (max-width: 425px) {
     .place__title {
       font-size: 32px;
       line-height: 35px;
+      width: 288px;
+      padding-right: 0;
     }}

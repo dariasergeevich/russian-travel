@@ -1,22 +1,10 @@
 .place__paragraphs {
   display: flex;
   flex-direction: column;
-  width: 484px;
-  height: 460px;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (max-width: 615px) {
   .place__paragraphs {
-    width: 456px;
-  }}
-
-@media (min-width: 426px) and (max-width: 768px) {
-  .place__paragraphs {
-    width: 352px;
-  }
-}
-@media (max-width: 425px) {
-  .place__paragraphs {
-    width: 288px;
+    padding-left: 16px;
   }
 }

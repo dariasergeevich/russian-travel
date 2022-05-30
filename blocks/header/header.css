@@ -1,8 +1,8 @@
 .header {
-    padding-top: 2.19%;
+    padding-top: 28px;
     display: flex;
     justify-content: space-between;
-    max-width: 92.5%;
+    max-width: 1184px;
     margin: auto;
     
 }
@@ -20,5 +20,6 @@
   @media (max-width: 425px) {
     .header {
       max-width: calc(100% - 32px);
+      padding-top: 16px;
     }
   }

@@ -1,12 +1,13 @@
 .cover {
 width: 96.1%;
+max-width: 1184px;
 margin: auto;
 color: white;
 position: relative;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    .cover {
-      max-width: 100%;
-    }
+@media (min-width: 720px) and (max-width: 1024px) {
+  .cover {
+    max-width: 100%;
+  }
 }

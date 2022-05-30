@@ -1,7 +1,26 @@
-.intro {
-   width: 53.91%;
-   margin-left: 11.56%;
-   color: white;
-   margin-top: 0;
-   margin-bottom: 0;
-  }
+
+   .intro {
+      margin-left: 148px;
+      max-width: 690px;
+      color: white;
+    }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+   .intro {
+    max-width: 690px;
+     margin-left: 48px;
+
+   }
+ }
+ @media (min-width:426px) and (max-width: 768px) {
+   .intro {
+     margin: 0 auto 88px;
+     max-width: calc(100% - 48px);
+   }
+ }
+ @media (max-width: 425px) {
+   .intro {
+     margin: 0 auto 64px;
+     max-width: calc(100% - 32px);
+   }
+ }

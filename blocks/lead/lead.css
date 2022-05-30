@@ -1,23 +1,30 @@
 .lead {
-    padding-top: 4.37%;
+    padding-top: 56px;
     padding-bottom: 88px;
-    max-width: 76.87%;
+    max-width: 984px;
     margin: auto;
   }
+
+@media (max-width: 1024px) {
+  .lead {
+    padding-top: 48px;
+  }
+}
 
   @media (min-width: 769px) and (max-width: 1024px) {
     .lead {
       max-width: 928px;
     }
   }
-  @media (min-width: 426px) and (max-width: 768px) {
+  
+  @media (max-width: 768px) {
     .lead {
       max-width: 100%;
     }
   }
+
   @media (max-width: 425px) {
     .lead {
       padding-bottom: 64px;
-      max-width: 100%;
     }
   }

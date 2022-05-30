@@ -6,11 +6,14 @@
   max-width: 73.17%;
   margin: auto;
   text-align: center;
+  padding-bottom: 32px;
   }
 
   @media (min-width: 769px) and (max-width: 1024px) {
     .lead__title {
       max-width: 720px;
+      font-size: 96px;
+      line-height: 1.04;
     }
   }
 
