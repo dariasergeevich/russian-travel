@@ -1,6 +1,6 @@
 .lead {
     padding-top: 56px;
-    padding-bottom: 88px;
+    padding-bottom: 92px;
     max-width: 984px;
     margin: auto;
   }
@@ -8,6 +8,7 @@
 @media (max-width: 1024px) {
   .lead {
     padding-top: 48px;
+    padding-bottom: 88px;
   }
 }
 

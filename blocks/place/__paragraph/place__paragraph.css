@@ -23,8 +23,15 @@
   }
 }
 
+@media (max-width: 620px) {
+  .place__paragraph {
+    width: 95%;
+    margin: auto;
+  }
+}
+
 @media (max-width: 425px) {
   .place__paragraph {
-    width: 288px;
+    max-width: calc(100% - 32px);
   }
 }

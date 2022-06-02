@@ -3,8 +3,8 @@
   flex-direction: column;
 }
 
-@media (max-width: 615px) {
+@media (max-width: 620px) {
   .place__paragraphs {
-    padding-left: 16px;
+    margin: auto;
   }
 }

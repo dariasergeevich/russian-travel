@@ -6,8 +6,8 @@ color: white;
 position: relative;
 }
 
-@media (min-width: 720px) and (max-width: 1024px) {
+@media (max-width: 1279px) {
   .cover {
-    max-width: 100%;
+    width: 100%;
   }
 }

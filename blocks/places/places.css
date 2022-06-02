@@ -1,7 +1,7 @@
 .places {
   max-width: 984px;
   padding-top: 92px;
-  padding-bottom: 44px;
+  padding-bottom: 92px;
   margin: auto;
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -13,14 +13,14 @@
   .places {
     max-width: 720px;
     padding-bottom: 90px;
-    padding-top: 40px;
+    padding-top: 88px;
   }
 }
 
 @media (max-width: 425px) {
   .places {
     max-width: 100%;
-    padding-bottom: 16px;
+    padding-bottom: 66px;
     padding-top: 64px;
   }
 }

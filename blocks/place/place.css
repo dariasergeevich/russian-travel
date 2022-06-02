@@ -27,7 +27,7 @@
 }
 @media (max-width: 425px) {
   .place {
-    grid-template-columns: 320px;
+    grid-template-columns: 100%;
     column-gap: 0px;
     row-gap: 32px;
     padding-bottom: 50px;
