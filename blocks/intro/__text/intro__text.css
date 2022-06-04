@@ -6,3 +6,10 @@
    margin: 0;
    max-width: 690px;
   }
+
+@media (min-width:426px) and (max-width: 768px) {
+  .intro__text {
+   max-width: 720px;
+  }
+}
+

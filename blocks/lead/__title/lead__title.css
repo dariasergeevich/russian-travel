@@ -22,7 +22,7 @@
     }
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 426px) {
     .lead__title {
       padding-bottom: 16px;
       max-width: 288px;
